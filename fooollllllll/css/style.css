@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.main{
+    min-height: 100vh;
+    background:linear-gradient(to right top,rgb(175, 202, 202),aqua);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background-color: rgb(132, 245, 245,);
+    min-height: 70vh;
+    width: 60%;
+    border-radius: 29px;
+    opacity: 0.5;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    
+}
+.circle1,
+.circle2{
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    width: 20rem;
+    background-color:rgb(191, 252, 252);
+    opacity: 0.3;
+   
+}
+.circle1{
+    top: 5%;
+    right: 10%;
+}
+.circle2{
+    bottom: 5%;
+    left: 10%;
+}
+
+
+
+
